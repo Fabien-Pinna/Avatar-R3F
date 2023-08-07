@@ -17,7 +17,7 @@ export const Experience = () => {
       <Sky />
       <Environment preset="sunset" />
 
-      <group position-y={-1}>
+      <group position-y={-3}>
         <ContactShadows opacity={1} scale={10} blur={1} far={10} resolution={256} color="#000000" />
         <Avatar animation={animation} />
         {
